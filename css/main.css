@@ -1,0 +1,141 @@
+body{
+  background-color: #f5fcfe;
+  font-family: Charcoal, sans-serif;
+
+}
+/*nav bar*/
+nav{
+	text-align: center;
+}
+ul.navbar {
+	background-color: rgba(255, 155, 0, 0.84);
+	width: 100%;
+	padding: 50px;
+}
+
+.navbar li{
+	display: inline;
+	font-size: 26px;
+	padding: 20px;
+	position: relative;
+	left: 200px;
+
+}
+
+.navbar a{
+	color: white;
+	text-decoration: none;
+
+}
+
+img.carrot-logo{
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 200px;
+}
+
+/*middle section*/
+
+/*carrot image*/
+
+img.carrot{
+	position: absolute;
+	top: 150px;
+	width: 450px;
+	left: 100px;
+	padding-top: 60px;
+
+}
+
+/*search bar*/
+div.search{
+	width: 350px;
+	height: 80px;
+	padding-top: 10px;
+	position: absolute;
+	top: 147px;
+	left: 1010px;
+	
+}
+
+input{
+	width: 300px;
+	height: 60px;
+	font-size: 26px;
+	background-color: #f0f0f0;
+	box-shadow: 10px 5px 5px #BEBBBC;
+}
+
+/*text area*/
+div.text{
+	width: 50%;
+	
+	margin-left: 50%;
+	margin-top: 150px;
+}
+
+.text p{
+	font-size: 45px;
+	color: #ff9800;
+	font-weight: 200;
+}
+
+.word-carrot{
+	font-weight: bold;
+}
+/*trademark label*/
+div.text i{
+	font-size: 20px;
+	
+}
+
+.word-web{
+	color: #7DC285;
+}
+
+.word-app{
+	color: #7DC285;
+}
+/*button layout*/
+button{
+	width: 270px;
+	height: 68px;
+	font-size: 24px;
+}
+
+#button1{
+	background-color: rgba(255, 155, 0, 0.84);
+	color: white;
+}
+
+#button2{
+	background-color: #65c47d;
+	color: white;
+}
+
+/*footer section*/
+footer{
+	text-align: center;
+	background-color: #7DC285;
+}
+
+ul.footer{
+	background-color: #65c47d;
+	width: 100%;
+	height: 55px;
+	padding: 50px;
+	margin-top: 130px;
+
+}
+
+.footer li{
+	display: inline;
+	color: white;	
+	font-size: 26px;
+	padding: 20px;
+}
+
+
+
+

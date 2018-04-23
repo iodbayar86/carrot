@@ -1,84 +1,120 @@
 body{
   background-color: #f5fcfe;
   font-family: Charcoal, sans-serif;
-
+  margin: 0;
+  padding: 0;
 }
+
 /*nav bar*/
 nav{
-	text-align: center;
-}
-ul.navbar {
-	background-color: rgba(255, 155, 0, 0.84);
-	width: 100%;
-	padding: 50px;
+	background-color: #ffa907f0;
+	padding: 10px 10px;
 }
 
-.navbar li{
-	display: inline;
+nav div{
+	display: inline-block;
+
+}
+
+nav ul{
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+div.navbar{
+	width: 70%;
+	text-align: right;
+}
+
+div.carrot-logo{
+	width: 30%;
+	text-align: left;
+}
+
+div.navbar ul{
+	padding-left: 0;
+
+}
+
+div.navbar li{
+	display: inline-block;
+	margin: 0 5px;
 	font-size: 26px;
-	padding: 20px;
-	position: relative;
-	left: 200px;
+	padding-left: 20px;
+	
 
 }
 
-.navbar a{
+div.navbar a{
 	color: white;
 	text-decoration: none;
 
 }
 
-img.carrot-logo{
-	position: absolute;
-	top: 40px;
-	left: 70px;
-	width: 200px;
-}
+div.carrot-logo img{
+	width: 50%; 
+	margin-left: 65px;
+	position: relative;
+	top: 30px
 
-/*middle section*/
-
-/*carrot image*/
-
-img.carrot{
-	position: absolute;
-	top: 150px;
-	width: 450px;
-	left: 100px;
-	padding-top: 60px;
 
 }
 
 /*search bar*/
 div.search{
-	width: 350px;
-	height: 80px;
-	padding-top: 10px;
-	position: absolute;
-	top: 147px;
-	left: 1010px;
+	text-align: right;
 	
 }
 
 input{
-	width: 300px;
-	height: 60px;
+	padding: 15px;
 	font-size: 26px;
 	background-color: #f0f0f0;
-	box-shadow: 10px 5px 5px #BEBBBC;
+	border: none;
+	margin-right: 35px;
+	margin-top: 10px;
+	width: 300px;
+	height: 35px;
+	box-shadow: 10px 10px 5px grey;
 }
 
-/*text area*/
+i.fa.fa-search{
+	position: relative;
+	right: -300px;
+	color: #c5c5c7;
+}
+	/*changes the color of the text inside the search placeholder*/
+div.search input::placeholder {
+	color: #c5c5c7;
+}
+
+/*middle section*/
+div.carrot, div.text{
+	display: inline-block;
+	/*width: 48%;*/
+}
+
+div.carrot{
+	width: 30%;
+}
+
 div.text{
-	width: 50%;
-	
-	margin-left: 50%;
-	margin-top: 150px;
+	width: 65%;
+	margin-left: 50px;
+	text-align: center;
 }
-
+.carrot img{
+	width: 100%;
+	padding-left: 100px;
+}
 .text p{
 	font-size: 45px;
 	color: #ff9800;
 	font-weight: 200;
+	margin-bottom: 45px;
+	margin-left: 120px;
+	padding-left: 120px;
+	text-align: left;
 }
 
 .word-carrot{
@@ -98,19 +134,27 @@ div.text i{
 	color: #7DC285;
 }
 /*button layout*/
+div.buttons{
+	padding-left: 100px;
+}
+
 button{
-	width: 270px;
-	height: 68px;
-	font-size: 24px;
+
+	font-size: 20px;
+	border: none;
+	padding: 20px 30px;
+	width: 250px;
+	margin:0 3%;
+
 }
 
 #button1{
-	background-color: rgba(255, 155, 0, 0.84);
+	background-color: #65c47d;
 	color: white;
 }
 
 #button2{
-	background-color: #65c47d;
+	background-color: #ffa907f0;
 	color: white;
 }
 
